@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Cutive+Mono&display=swap');
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #A8B5A2;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Cutive Mono', monospace;
+    margin-top: 5px;
+    
+}
+
+.top-bar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: #A8B5A2;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    z-index: 1000;
+}
+
+.top-bar .tab {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s ease;
+    border-radius: 5px
+}
+
+.top-bar .tab:hover {
+    background: #555;
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 1000;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.bottom-bar .tab {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+.bottom-bar .tab:hover {
+    background: #555;
+}
