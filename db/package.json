@@ -1,0 +1,22 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "DB-Detailing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitlynmartocci125/DB-Detailing.git"
+  },
+  "keywords": [
+    "car"
+  ],
+  "author": "Kaitlyn Martocci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaitlynmartocci125/DB-Detailing/issues"
+  },
+  "homepage": "https://github.com/kaitlynmartocci125/DB-Detailing#readme"
+}
